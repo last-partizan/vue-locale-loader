@@ -19,3 +19,9 @@ Add this to `webpack.config.js`, `module.rules` section.
           ],
         },
 ```
+
+To extract strings from vue files, use:
+
+```
+./translate-vue.py src/components/ComponentName.vue
+```
